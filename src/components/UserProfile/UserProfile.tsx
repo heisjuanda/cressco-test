@@ -11,7 +11,7 @@ export const UserProfile = ({
     img , fullName, country
 }:Props) => {
     return (
-        <section className='use-section'>
+        <section className='user-section'>
             <header>
                 {fullName}
             </header>
